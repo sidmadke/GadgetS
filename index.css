@@ -38,8 +38,11 @@ p {
 }
 
 body{
-    background: url("./img/abstract-dark-blue-futuristic-digital-grid-background.jpg");
-    background-size: cover;
+  /* background: rgb(0,52,52);
+  background: linear-gradient(0deg, rgba(0,52,52,1) 0%, rgba(34,193,195,1) 100%); */
+  /* background-color: #12121240; */
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0.9585084033613446) 0%, rgb(0, 0, 0) 20%, rgb(0, 213, 255) 100%);
 }
 
 h2 {
@@ -119,7 +122,8 @@ p {
   width: calc(100% + 1.25rem);
   bottom: calc((1.25rem - 0.5rem) * -1);
   left: -1.25rem;
-  background-color: var(--brand-color);
+  background-color:red;
+  /* background-color: var(--brand-color); */
 }
 
 .card__button {
@@ -205,6 +209,8 @@ p {
     transition-delay: 500ms;
   }
 }
-.bg-tranperent{
-    background-color: rgba(0, 255, 255, 0.205);
+.bg-transperent{
+  /* background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0.9585084033613446) 0%, rgba(0, 0, 0, 0.333) 27%, rgba(0, 213, 255, 0.322) 100%); */
+  background-color: rgba(128, 128, 128, 0.204);
 }
